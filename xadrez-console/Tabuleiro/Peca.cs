@@ -16,11 +16,11 @@ namespace tabuleiro
 
         }
 
-        public Peca(Posicao posicao, Cor cor, Tabuleiro tabuleiro)
+        public Peca(Tabuleiro tabuleiro, Cor cor)
         {
-            Posicao = posicao;
-            Cor = cor;
+            Posicao = null;
             Tabuleiro = tabuleiro;
+            Cor = cor;
             QtdMovimento = 0;
         }
     }
